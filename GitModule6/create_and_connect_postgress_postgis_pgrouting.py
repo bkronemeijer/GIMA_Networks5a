@@ -233,10 +233,6 @@ def json_try_one():
     vacancies = parking_status['vacantSpaces']
     print(vacancies)
 
-def bettylove():
-    con.execute("CREATE TABLE sql_love (female VARCHAR (30), male VARCHAR (30), number_of_dates INTEGER)")
-    con.execute("INSERT INTO sql_love VALUES ('Betty', 'Lover', 1)")
-    con.execute("INSERT INTO sql_love VALUES ('Oscar', 'Niemand', -1)")
 
 # First create a database, connect to it, and add spatial extensions.
 
@@ -259,7 +255,6 @@ create_spatial_index()
 # create_a_star_route()
 # create_ped_car_cycle_view()
 # create_parking_table()
-#bettylove()
 
 # Implement a self made sql function for geoserver, e.g, dijkstra from coordinates. Currently working on a-star.
 # add_sql_function()
